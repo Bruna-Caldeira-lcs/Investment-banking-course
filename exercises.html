@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Banking Course | Exercises</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="Investment Banking Course Logo">
+                    <span class="logo-text">IB Course</span>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="modules.html" class="nav-link">Modules</a></li>
+                    <li class="nav-item"><a href="exercises.html" class="nav-link active">Exercises</a></li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="login.html" class="btn">Login</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Exercises Header -->
+    <section class="course-header">
+        <div class="container">
+            <h1 class="course-title">Practical Exercises</h1>
+            <p class="course-description">Apply your knowledge with hands-on exercises and case studies designed to simulate real-world investment banking scenarios.</p>
+        </div>
+    </section>
+
+    <!-- Exercises Content -->
+    <div class="container exercise-container">
+        <div class="exercise-card">
+            <div class="exercise-header">
+                <h2 class="exercise-title">Financial Statement Analysis Exercise</h2>
+                <p class="exercise-description">Analyze real financial statements, calculate key ratios, and draw meaningful insights from financial data.</p>
+            </div>
+            
+            <div class="exercise-section">
+                <h3 class="exercise-section-title">Learning Objectives</h3>
+                <ul class="exercise-list">
+                    <li>Interpret financial statements including income statements, balance sheets, and cash flow statements</li>
+                    <li>Calculate and analyze key financial ratios to assess company performance</li>
+                    <li>Identify financial trends and potential red flags</li>
+                    <li>Compare financial metrics across industry peers</li>
+                    <li>Develop insights and recommendations based on financial analysis</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-materials">
+                <h3 class="materials-title">Exercise Materials</h3>
+                <ul class="materials-list">
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Apple_Financial_Statements.xlsx" download>Apple Inc. Financial Statements (Excel)</a></li>
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/Financial_Ratio_Guide.pdf" download>Financial Ratio Analysis Guide (PDF)</a></li>
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Financial_Analysis_Template.xlsx" download>Financial Analysis Template (Excel)</a></li>
+                </ul>
+            </div>
+            
+            <div class="exercise-instructions">
+                <h3 class="exercise-section-title">Instructions</h3>
+                
+                <div class="instruction-step">
+                    <h4 class="step-title">Part 1: Financial Statement Review (30 minutes)</h4>
+                    <p>Review Apple Inc.'s financial statements for the past three fiscal years. Familiarize yourself with the company's income statement, balance sheet, and cash flow statement. Take notes on any significant changes or trends you observe.</p>
+                </div>
+                
+                <div class="instruction-step">
+                    <h4 class="step-title">Part 2: Ratio Analysis (60 minutes)</h4>
+                    <p>Using the provided Financial Analysis Template, calculate the following ratios for each of the three years:</p>
+                    <ul>
+                        <li>Profitability Ratios: Gross Margin, Operating Margin, Net Profit Margin, ROA, ROE</li>
+                        <li>Liquidity Ratios: Current Ratio, Quick Ratio, Cash Ratio</li>
+                        <li>Efficiency Ratios: Asset Turnover, Inventory Turnover, Receivables Turnover</li>
+                        <li>Leverage Ratios: Debt-to-Equity, Debt-to-Assets, Interest Coverage</li>
+                        <li>Valuation Ratios: P/E, P/S, EV/EBITDA</li>
+                    </ul>
+                </div>
+                
+                <div class="instruction-step">
+                    <h4 class="step-title">Part 3: Peer Comparison (45 minutes)</h4>
+                    <p>Compare Apple's financial ratios to those of its industry peers (provided in the Excel file). Identify areas where Apple outperforms or underperforms relative to its competitors.</p>
+                </div>
+                
+                <div class="instruction-step">
+                    <h4 class="step-title">Part 4: Analysis and Recommendations (45 minutes)</h4>
+                    <p>Based on your analysis, prepare a 1-2 page report that includes:</p>
+                    <ul>
+                        <li>Summary of Apple's financial performance over the three-year period</li>
+                        <li>Key strengths and weaknesses identified through ratio analysis</li>
+                        <li>Comparison to industry peers</li>
+                        <li>Recommendations for potential investors (buy, hold, or sell)</li>
+                        <li>Areas for further investigation</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="submission-guidelines">
+                <h3 class="submission-title">Submission Guidelines</h3>
+                <p>Submit the following items:</p>
+                <ol>
+                    <li>Completed Financial Analysis Template with all calculated ratios</li>
+                    <li>1-2 page analysis report in PDF format</li>
+                    <li>Any additional supporting calculations or notes</li>
+                </ol>
+            </div>
+            
+            <a href="exercises/financial_statement_analysis.html" class="btn" style="margin-top: 20px;">Start Exercise</a>
+        </div>
+        
+        <div class="exercise-card">
+            <div class="exercise-header">
+                <h2 class="exercise-title">DCF Valuation Exercise</h2>
+                <p class="exercise-description">Build a comprehensive DCF model to value a publicly traded company and determine its intrinsic value.</p>
+            </div>
+            
+            <div class="exercise-section">
+                <h3 class="exercise-section-title">Learning Objectives</h3>
+                <ul class="exercise-list">
+                    <li>Develop financial projections based on historical performance and industry trends</li>
+                    <li>Calculate weighted average cost of capital (WACC)</li>
+                    <li>Build a discounted cash flow model from scratch</li>
+                    <li>Determine terminal value using multiple approaches</li>
+                    <li>Perform sensitivity analysis to test key assumptions</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-materials">
+                <h3 class="materials-title">Exercise Materials</h3>
+                <ul class="materials-list">
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Starbucks_Financial_Data.xlsx" download>Starbucks Financial Data (Excel)</a></li>
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/DCF_Modeling_Guide.pdf" download>DCF Modeling Guide (PDF)</a></li>
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/DCF_Template.xlsx" download>DCF Model Template (Excel)</a></li>
+                </ul>
+            </div>
+            
+            <a href="exercises/dcf_valuation.html" class="btn" style="margin-top: 20px;">Start Exercise</a>
+        </div>
+        
+        <div class="exercise-card">
+            <div class="exercise-header">
+                <h2 class="exercise-title">M&A Case Study</h2>
+                <p class="exercise-description">Analyze a potential acquisition, evaluate strategic rationale, perform valuation analysis, and make recommendations.</p>
+            </div>
+            
+            <div class="exercise-section">
+                <h3 class="exercise-section-title">Learning Objectives</h3>
+                <ul class="exercise-list">
+                    <li>Evaluate strategic rationale for M&A transactions</li>
+                    <li>Apply multiple valuation methodologies to determine appropriate offer price</li>
+                    <li>Analyze potential synergies and integration challenges</li>
+                    <li>Assess transaction structure and financing options</li>
+                    <li>Develop comprehensive M&A recommendations</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-materials">
+                <h3 class="materials-title">Exercise Materials</h3>
+                <ul class="materials-list">
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/TechAcquisition_CaseStudy.pdf" download>Tech Acquisition Case Study (PDF)</a></li>
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Target_Financials.xlsx" download>Target Company Financials (Excel)</a></li>
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Acquirer_Financials.xlsx" download>Acquirer Financials (Excel)</a></li>
+                </ul>
+            </div>
+            
+            <a href="exercises/ma_case_study.html" class="btn" style="margin-top: 20px;">Start Exercise</a>
+        </div>
+        
+        <div class="exercise-card">
+            <div class="exercise-header">
+                <h2 class="exercise-title">Financial Modeling Exercise</h2>
+                <p class="exercise-description">Build a fully integrated three-statement financial model from scratch with projections and scenario analysis.</p>
+            </div>
+            
+            <div class="exercise-section">
+                <h3 class="exercise-section-title">Learning Objectives</h3>
+                <ul class="exercise-list">
+                    <li>Construct an integrated three-statement financial model</li>
+                    <li>Develop revenue and expense projections based on historical data and assumptions</li>
+                    <li>Create balance sheet and cash flow forecasts that link to the income statement</li>
+                    <li>Build scenario and sensitivity analyses</li>
+                    <li>Apply best practices in financial modeling</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-materials">
+                <h3 class="materials-title">Exercise Materials</h3>
+                <ul class="materials-list">
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Nike_Historical_Financials.xlsx" download>Nike Historical Financials (Excel)</a></li>
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/Financial_Modeling_Guide.pdf" download>Financial Modeling Best Practices Guide (PDF)</a></li>
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Model_Template.xlsx" download>Financial Model Template (Excel)</a></li>
+                </ul>
+            </div>
+            
+            <a href="exercises/financial_modeling.html" class="btn" style="margin-top: 20px;">Start Exercise</a>
+        </div>
+        
+        <div class="exercise-card">
+            <div class="exercise-header">
+                <h2 class="exercise-title">Pitchbook Creation Exercise</h2>
+                <p class="exercise-description">Create a compelling equity offering pitchbook for a client company considering an initial public offering.</p>
+            </div>
+            
+            <div class="exercise-section">
+                <h3 class="exercise-section-title">Learning Objectives</h3>
+                <ul class="exercise-list">
+                    <li>Structure a comprehensive and persuasive investment banking pitchbook</li>
+                    <li>Create professional-quality financial exhibits and visualizations</li>
+                    <li>Develop compelling equity story narratives for potential investors</li>
+                    <li>Present valuation analyses in a clear and impactful manner</li>
+                    <li>Apply best practices in slide design and information presentation</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-materials">
+                <h3 class="materials-title">Exercise Materials</h3>
+                <ul class="materials-list">
+                    <li><i class="fas fa-file-powerpoint material-icon"></i> <a href="exercises/files/Equity_Offering_Pitchbook_Template.pptx" download>Equity Offering Pitchbook Template (PowerPoint)</a></li>
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/TechHealth_Company_Profile.pdf" download>TechHealth Company Profile (PDF)</a></li>
+                    <li><i class="fas fa-file-excel material-icon"></i> <a href="exercises/files/Healthcare_Tech_Comps.xlsx" download>Healthcare Tech Comparables (Excel)</a></li>
+                </ul>
+            </div>
+            
+            <a href="exercises/pitchbook_creation.html" class="btn" style="margin-top: 20px;">Start Exercise</a>
+        </div>
+        
+        <div class="exercise-card">
+            <div class="exercise-header">
+                <h2 class="exercise-title">Interview Simulation Exercise</h2>
+                <p class="exercise-description">Practice answering technical and behavioral questions, improve presentation skills, and develop interview strategies.</p>
+            </div>
+            
+            <div class="exercise-section">
+                <h3 class="exercise-section-title">Learning Objectives</h3>
+                <ul class="exercise-list">
+                    <li>Respond effectively to common technical and behavioral interview questions</li>
+                    <li>Structure clear, concise, and compelling interview answers</li>
+                    <li>Demonstrate financial knowledge and analytical thinking under pressure</li>
+                    <li>Present yourself professionally in high-pressure interview situations</li>
+                    <li>Develop strategies for handling challenging or unexpected questions</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-materials">
+                <h3 class="materials-title">Exercise Materials</h3>
+                <ul class="materials-list">
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/IB_Interview_Question_Bank.pdf" download>IB Interview Question Bank (PDF)</a></li>
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/Technical_Interview_Preparation.pdf" download>Technical Interview Preparation Guide (PDF)</a></li>
+                    <li><i class="fas fa-file-pdf material-icon"></i> <a href="exercises/files/STAR_Method_Guide.pdf" download>STAR Method Guide (PDF)</a></li>
+                </ul>
+            </div>
+            
+            <a href="exercises/interview_simulation.html" class="btn" style="margin-top: 20px;">Start Exercise</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">IB Course</a>
+                    <p>A comprehensive investment banking course designed to prepare you for a successful career in the financial industry.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="modules.html">Modules</a></li>
+                        <li><a href="exercises.html">Exercises</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul>
+                        <li><a href="resources.html#pdf">PDF Materials</a></li>
+                        <li><a href="resources.html#templates">Excel Templates</a></li>
+                        <li><a href="resources.html#guides">Study Guides</a></li>
+                        <li><a href="resources.html#glossary">Financial Glossary</a></li>
+                        <li><a href="resources.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>
+                            <i class="fas fa-envelope footer-contact-icon"></i>
+                            <span>support@ibcourse.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone footer-contact-icon"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt footer-contact-icon"></i>
+                            <span>123 Finance Street, New York, NY 10001</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Investment Banking Course. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
